@@ -4,3 +4,6 @@
 [submodule "solutions/queens"]
 	path = solutions/queens
 	url = https://github.com/shahineb/ci-hackathon.git
+[submodule "solutions/hackathon-ci-2020"]
+	path = solutions/late_birds
+	url = https://github.com/dquesadacr/hackathon-ci-2020.git
