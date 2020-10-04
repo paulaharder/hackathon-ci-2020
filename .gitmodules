@@ -7,3 +7,6 @@
 [submodule "solutions/hackathon-ci-2020"]
 	path = solutions/late_birds
 	url = https://github.com/dquesadacr/hackathon-ci-2020.git
+[submodule "solutions/stargazer"]
+	path = solutions/stargazer
+	url = https://github.com/dfulu/ci2020-hackathon.git
