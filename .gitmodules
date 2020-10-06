@@ -1,6 +1,3 @@
-[submodule "queens"]
-	path = solutions/ci-hackathon
-	url = https://github.com/shahineb/ci-hackathon.git
 [submodule "solutions/queens"]
 	path = solutions/queens
 	url = https://github.com/shahineb/ci-hackathon.git
