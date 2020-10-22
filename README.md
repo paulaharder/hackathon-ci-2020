@@ -13,7 +13,7 @@ The task was to generate nighttime imagery from infrared observations.
 The three most succesful solutions can be found in /solutions.
 
 <p align="center">
-  <img src="images/reslts_hackathon_ci.PNG" />
+  <img src="images/results_hackathon_ci.PNG" />
 </p>
 
 <p align="center">
