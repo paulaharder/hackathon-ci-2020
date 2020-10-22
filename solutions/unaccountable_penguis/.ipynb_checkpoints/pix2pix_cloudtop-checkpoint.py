@@ -48,7 +48,7 @@ del TrueColorNZ, CloudTopNZ
 
 BUFFER_SIZE = 400
 BATCH_SIZE = 1
-EPOCHS = 62
+EPOCHS = 2
     
 def downsample(filters, size, apply_batchnorm=True):
     initializer = tf.random_normal_initializer(0., 0.02)
@@ -123,7 +123,7 @@ def generator_loss(disc_generated_output, gen_output, target):
     gan_loss = loss_object(tf.ones_like(disc_generated_output), disc_generated_output)
     # ssim loss
     ssim_loss = tf.reduce_mean(1 - tf.image.ssim(target+1, gen_output+1,2.0))
-    total_gen_loss = gan_loss + (LAMBDA * l1_loss)
+    total_gen_loss = gan_loss + (LAMBDA * ssim_loss)
     return total_gen_loss, gan_loss, ssim_loss
 
 def Discriminator():
@@ -217,4 +217,4 @@ for i in range(X_test.shape[0]):
     pred_resize = tf.image.resize(pred_un, [127, 127],method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
     predictions[i,:,:,:] = pred_resize.numpy()
     
-np.save(my_path + 'Y_test_CI20_phase2.npy', predictions)
+np.save(my_path + '/Y_test_CI20_phase2.npy', predictions)
