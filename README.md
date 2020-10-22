@@ -6,16 +6,16 @@ Now there is a public version of the hackathon avaiable: https://competitions.co
 ## The Challenge
 The task was to generate nighttime imagery from infrared observations.
 <p align="center">
-  <img src="images/challenge_goal.png" />
+  <img src="images/challenge_goal.PNG" />
 </p>
 
 ## The Results
 The three most succesful solutions can be found in /solutions.
 
 <p align="center">
-  <img src="images/reslts_hackathon_ci.png" />
+  <img src="images/reslts_hackathon_ci.PNG" />
 </p>
 
 <p align="center">
-  <img src="images/comparison_night.png" />
+  <img src="images/comparison_night.PNG" />
 </p>
